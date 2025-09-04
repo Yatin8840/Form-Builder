@@ -65,7 +65,7 @@ export default function Dashboard() {
 
       {/* Forms list */}
       <div className="grid gap-4">
-        {loading && <div className="card">Loading…</div>}
+        {loading && <div className="card">Loading…Wait for 5 sec</div>}
         {!loading && forms.length === 0 && (
           <div className="card">No forms yet</div>
         )}
